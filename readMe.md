@@ -11,7 +11,7 @@ A simple web-based password manager implemented using HTML, CSS, and JavaScript.
 
 ## Preview
 
-![Password Manager Preview](https://password-manager-git-main-ankit-kumar-dams-projects.vercel.app/)
+[Password Manager Preview](https://password-manager-git-main-ankit-kumar-dams-projects.vercel.app/)
 
 ## Installation
 
@@ -36,4 +36,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Author
 Ankit Kumar Dam
-Github Profile Link : ![Ankit Kumar Dam](https://github.com/myself-ankit18)
+Github Profile Link : [Ankit Kumar Dam](https://github.com/myself-ankit18)
