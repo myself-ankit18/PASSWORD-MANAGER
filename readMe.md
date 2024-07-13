@@ -11,7 +11,7 @@ A simple web-based password manager implemented using HTML, CSS, and JavaScript.
 
 ## Preview
 
-![Password Manager Preview](preview.png)
+![Password Manager Preview](https://password-manager-git-main-ankit-kumar-dams-projects.vercel.app/)
 
 ## Installation
 
@@ -20,3 +20,20 @@ A simple web-based password manager implemented using HTML, CSS, and JavaScript.
    git clone https://github.com/your-username/password-manager.git
    ```
 2. Open index.html in your web browser.
+
+## Usage 
+- **Adding a Password**: Enter the website name, username, and password, then click "Submit".
+- **Viewing Passwords**: All entered passwords are displayed in a table.
+- **Deleting a Password**: Click "Delete" next to a password entry to remove it from the list.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Author
+Ankit Kumar Dam
+Github Profile Link : ![Ankit Kumar Dam](https://github.com/myself-ankit18)
