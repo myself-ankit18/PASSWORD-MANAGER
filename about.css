@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 50px;
+    color: white;
+    background-color: black;
+}
+
+.navleft {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.navright {
+    display: flex;
+    gap: 30px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.about-section {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h1, .about-section h2 {
+    margin-bottom: 20px;
+}
+
+.about-section p, .about-section ul {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 50px;
+    color: white;
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .about-section {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .navleft {
+        font-size: 18px;
+    }
+
+    .navright {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    .about-section h1 {
+        font-size: 24px;
+    }
+
+    .about-section h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

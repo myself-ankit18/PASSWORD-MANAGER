@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="icon" type="image/png" href="password.jpg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="navleft">
+                <span>PassMan</span>
+            </div>
+            <div class="navright">
+                <span><a class="a" href="about.html">About</a></span>
+            </div>
+        </nav>
+        <main>
+            <section class="section1">
+                <center>
+                <h1 class="h11">Add a Password</h1>
+                </center>
+                <div>
+                    <label for="website">Website Name:</label>
+                    <span>
+                        <input type="text" placeholder="Enter Website Name" id="website" required>            
+                    </span>
+                </div>
+                <div>
+                    <label for="username">Username:</label>
+                    <span>
+                        <input type="text" placeholder="Enter Your Username" id="username" required>
+                    </span>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <span>
+                        <input type="password" placeholder="Enter Your Password" id="password" required>
+                    </span>
+                    <img src="eye.png" height="30px" width="30px" id="toggle-password" alt="">
+                </div>
+                <center>
+                    <button class="submit">
+                        Submit
+                    </button>
+                </center>
+            </section>
+            <section class="section2">
+                <center>
+                <h1 class="h12">Your Passwords</h1>
+                <table class="table" border="1px">
+                    <tr>
+                        <th>WEBSITE</th>
+                        <th>USERNAME</th>
+                        <th>PASSWORD</th>
+                        <th>DELETE</th>
+                    </tr>
+                </table>
+                </center>
+            </section>
+        </main>
+        <footer>
+            Thank You For Using PassMan!
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
