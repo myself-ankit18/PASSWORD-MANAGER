@@ -35,5 +35,5 @@ A simple web-based password manager implemented using HTML, CSS, and JavaScript.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Author
-Ankit Kumar Dam
+Ankit Kumar Dam<br>
 Github Profile Link : [Ankit Kumar Dam](https://github.com/myself-ankit18)
