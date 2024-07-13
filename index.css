@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-/* Ensure the body takes full height */
 html, body {
   height: 100%;
   margin: 0;
@@ -18,7 +17,6 @@ body {
   flex-direction: column;
 }
 
-/* Container to ensure footer sticks to bottom */
 .container {
   display: flex;
   flex-direction: column;
@@ -48,7 +46,7 @@ nav {
 .a {
   text-decoration: none;
   color: white;
-  font-size: 16px; /* Default font size for Home and About links */
+  font-size: 16px; 
 }
 
 main {
@@ -138,8 +136,6 @@ footer {
     top :27%;
     cursor: pointer;
 }
-
-/* Media queries for responsive design */
 @media screen and (max-width: 900px) {
   main {
     flex-direction: column;
@@ -166,7 +162,7 @@ footer {
   }
 
   .navright .a {
-    font-size: 14px; /* Reduce font size for smaller screens */
+    font-size: 15px; 
   }
 
   .section1, .section2 {

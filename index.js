@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const passwords = JSON.parse(localStorage.getItem("passwords")) || [];
 
   function renderPasswords() {
-      // Clear the table except for the header row
       while (table.rows.length > 1) {
           table.deleteRow(1);
       }
@@ -41,11 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
             eyeButton.textContent = '👁️';
             eyeButton.classList.add('eye-icon');
             eyeButton.addEventListener('click', function () {
-                // Toggle between dots and actual password
                 if (passwordDisplay.textContent.includes('*')) {
-                    passwordDisplay.textContent = password.password; // Show actual password
+                    passwordDisplay.textContent = password.password; 
                 } else {
-                    passwordDisplay.textContent = '*'.repeat(password.password.length); // Display dots
+                    passwordDisplay.textContent = '*'.repeat(password.password.length); 
                 }
               });
               passwordCell.appendChild(passwordDisplay);
